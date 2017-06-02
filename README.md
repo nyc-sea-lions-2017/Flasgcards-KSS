@@ -1,2 +1,2 @@
-# Flasgcards-KSS
+# Flashcards-KSS
 Flashcards - Kyle, Samantha, Shea
