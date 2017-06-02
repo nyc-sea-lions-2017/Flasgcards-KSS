@@ -1,1 +1,7 @@
 <h1>FLASHCARDS</h1>
+<% if logged_in? %>
+<% Card.all.each do |card| %>
+<%= card.category %>
+<%end %>
+<% end %>
+
