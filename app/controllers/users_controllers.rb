@@ -6,7 +6,7 @@ post '/users' do
   @user = User.new(params[:user])
   if @user.save
     redirect '/login'
-  else
+  elsegit me
     erb :'users/new'
   end
 end

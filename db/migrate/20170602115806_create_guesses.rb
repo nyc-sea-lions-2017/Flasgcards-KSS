@@ -3,7 +3,7 @@ class CreateGuesses < ActiveRecord::Migration
     create_table :guesses do |t|
       t.integer :card_id, foreign_key: true
       t.integer :round_id, foreign_key: true
-      t.string :guess
+      t.string :guess, null: false
 
       t.timestamps null: false
     end
