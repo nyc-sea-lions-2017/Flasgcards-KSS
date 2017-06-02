@@ -4,9 +4,6 @@ class CreateCards < ActiveRecord::Migration
       t.integer :deck_id, foreign_key: true
       t.string :question, null: false
       t.string :correct_answer, null: false
-      t.string :difficulty
-      t.string :type
-      t.string :incorrect_answers
 
       t.timestamps null: false
     end
