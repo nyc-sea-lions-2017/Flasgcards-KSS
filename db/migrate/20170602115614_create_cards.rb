@@ -6,6 +6,7 @@ class CreateCards < ActiveRecord::Migration
       t.string :correct_answer, null: false
       t.string :difficulty
       t.string :type
+      t.string :incorrect_answers
 
       t.timestamps null: false
     end
